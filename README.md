@@ -2,8 +2,6 @@
 
 The project is a geometry management module written in Lua and LauRT. It defines a GeometryManager object that provides methods to initialize different layout instances for LuaRT desktop applications.
 
-*In the "Zip File Viewer" example below, widgets are automatically repositioned and adjusted when the user resizes the application window.*
-
 ![Screenshot of the Zip File Viewer](/readme.png)
 
 **Please note:**
