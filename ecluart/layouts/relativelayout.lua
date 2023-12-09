@@ -1,7 +1,6 @@
 local bl = require("ecluart.layouts.baselayout")
-local ui = require("ui")
 
--- Places a child widget at the given relative position.
+-- Places child widgets at the given relative position.
 -- Default anchor is "topleft".
 -- local relativelayout = {}
 

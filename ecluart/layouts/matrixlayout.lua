@@ -1,6 +1,6 @@
 local bl = require("ecluart.layouts.baselayout")
  
--- Places a single child widget at the given position.
+-- Arranges child widgets into a given matix.
 -- Default resize is "none".
 -- local matrixlayout = {}
 

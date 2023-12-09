@@ -1,6 +1,6 @@
 local bl = require("ecluart.layouts.baselayout")
 
--- Arranges child widgets into a single column on the left border.
+-- Arranges child widgets into a single column.
 -- Default direction is "top" and default alignment is "left".
 -- local columnlayout = {}
 
