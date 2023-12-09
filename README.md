@@ -32,16 +32,13 @@ The project provides the following virtual layouts:
 | SingelLayout | Places a single child widget at the given position. | singelayout.lua
 | TopLayout | Arranges child widgets into a single row on the top border. | toplayout.lua
 
-
-
-
 More detailed descriptions and examples for each of these layouts can be found in the "docs" folder.
 
 ## Installation
 
 1. Create a folder called "ecluart" in your application.
 2. Copy the "gm.lua" file into this folder.
-3. In the same folder, copy the folder "layouts.
+3. In the same folder, copy the folder "layouts".
 
 ```text
 [application]
@@ -62,41 +59,6 @@ A geometry manager (gm) can be loaded using the function *require()*:
 
 ```lua
 local gm = require("eclua.gm") 
-```
-
-Then create a new layout instance:
-
-```lua
-local layout = gm.GeometryManager:TopLayout(parent, direction, gap, margin, height)
-```
-
-Add all child widgets to the layout:
-
-```lua
-layout:add(child)
-```
-
-Positions all child widgets before displaying the parent:
-
-```lua
-layout:apply()
-win:show()
-```
-
-Rearrange and resize all the child widgets after the parent widget has changed size:  
-
-```lua
-layout:update()
-```
-
-It is also possible to hide or show all child widgets of a particular layout:
-
-```lua
-layout:hide()
-```
-
-```lua
-layout:show()
 ```
 
 ## License
