@@ -3,6 +3,7 @@ local BottomLayout = require("ecluart.layouts.bottomlayout")
 local ColumnLayout = require("ecluart.layouts.columnlayout")
 local LeftLayout = require("ecluart.layouts.leftlayout")
 local MatrixLayout = require("ecluart.layouts.matrixlayout")
+local PackLayout = require("ecluart.layouts.packlayout")
 local RelativeLayout = require("ecluart.layouts.relativelayout")
 local RightLayout = require("ecluart.layouts.rightlayout")
 local RowLayout = require("ecluart.layouts.rowlayout")
@@ -46,9 +47,15 @@ function GeometryManager:LeftLayout(parent, direction, gap, margin, width)
 end
 
 -- Initializes a new matrix layout instance.
--- MatrixLayout(parent: object, colums?: number, rows?: number, require?[X, Y, Both, None]: number, gab?: number, positionx?: number, positiony?: number, width?: number, height?: number) -> object
+-- MatrixLayout(parent: object, columns?: number, rows?: number, require?[X, Y, Both, None]: number, gab?: number, positionx?: number, positiony?: number, width?: number, height?: number) -> object
 function GeometryManager:MatrixLayout(parent, columns, rows, resize, gap, positionx, positiony, width, height)
     return MatrixLayout(parent, columns, rows, resize, gap, positionx, positiony, width, height)
+end
+
+-- Initializes a new pack layout instance.
+-- PackLayout(parent: object, resize?: boolean, positionx?: number, positiony?: number, width?: number, height?: number) -> object
+function GeometryManager:PackLayout(parent, resize, positionx, positiony, width, height)
+    return PackLayout(parent, resize, positionx, positiony, width, height)
 end
 
 -- Initializes a new relative layout instance.

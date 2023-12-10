@@ -10,7 +10,7 @@ baselayout.ERRORMESSAGE.notvalidchild = "Not a valid child widget."
 -- isvalidparent(parameter: any) -> boolean
 function baselayout.isvalidparent(parameter)
   local parentType = tostring(parameter)
-  local validTypes = { "Window", "Groupbox", "TabItem" }
+  local validTypes = { "Window", "Groupbox", "TabItem", "Panel" }
 
   for _, validType in pairs(validTypes) do
     if string.find(parentType, validType) ~= nil then return true end

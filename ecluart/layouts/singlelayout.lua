@@ -28,9 +28,7 @@ end
 -- Updates the child widget.
 -- update() -> none
 function SingleLayout:update()
-  if self.resize == RESIZE.None then
-    return
-  end
+  if self.resize == RESIZE.None then return end
 
   local widthDifference, heightDifference = 0, 0
 

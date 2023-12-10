@@ -24,6 +24,7 @@ The project provides the following virtual layouts:
 | ColumnLayout | Arranges child widgets into a single column. | columnlayout.lua
 | LeftLayout | Arranges child widgets into a single column on the left border. | leftlayout.lua
 | MatrixLayout | Arranges child widgets into a given matix. | matrixlayout.lua
+| PackLayout | Arranges child widgets into a single resizeable column. | packlayout.lua
 | RelativeLayout | Places child widgets at the given relative position. | relativelayout.lua
 | RightLayout | Arranges child widgets into a single column on the right border. | rightlayout.lua
 | RowLayout | Arranges child widgets into a single row. | rowlayout.lua
