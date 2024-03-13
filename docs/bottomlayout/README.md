@@ -43,7 +43,7 @@ BottomLayout:add(child, [alignment])
 Parameter | Type | Description
 ---|---|---
 child | widget | Sets the child widget.
-alignment | number | Sets the vertical alignment of the child widget when it is placed within the layout. The alignment can be defined using the ALIGNMENT constant. The default alignment ist top.
+alignment | number | Sets the vertical alignment of the child widget when it is placed within the layout. The alignment can be defined using the ALIGNMENT constant. The default alignment ist bottom.
 
 ## Constant - ALIGNMENT
 

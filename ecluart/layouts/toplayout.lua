@@ -2,7 +2,7 @@ local bl = require("ecluart.layouts.baselayout")
 
 -- Arranges child widgets into a single row on the top border.
 -- Default direction is "left" and default alignment is "top".
--- local toplayout = {}
+-- local toplayout = {} -- version 2.0
 
 -- Defines specific constants.
 local DIRECTION = { Left = 1, Right = 2 }

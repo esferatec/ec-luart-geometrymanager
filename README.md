@@ -2,13 +2,11 @@
 
 The project is a geometry management module written in Lua and LauRT. It defines a GeometryManager object that provides methods to initialize different layout instances for LuaRT desktop applications.
 
-![Screenshot of the Zip File Viewer](/readme.png)
-
 **Please note:**
 These virtual layouts are not physical widgets. They do not take up any space on the parent widget. Basically, they help to place other widgets (buttons, labels, etc.) and rearrange them when the parent widget is resized.
 
 [![Lua 5.4.6](https://badgen.net/badge/Lua/5.4.6/yellow)](https://github.com/lua/lua)
-[![LuaRT 1.6.0](https://badgen.net/badge/LuaRT/1.6.0/blue)](https://github.com/samyeyo/LuaRT)
+[![LuaRT 1.7.0](https://badgen.net/badge/LuaRT/1.7.0/blue)](https://github.com/samyeyo/LuaRT)
 [![LuaCheck 1.1.1](https://badgen.net/badge/LuaCheck/1.1.1/green)](https://github.com/lunarmodules/luacheck)
 
 ## Features
@@ -57,7 +55,7 @@ More detailed descriptions and examples for each of these layouts can be found i
 A geometry manager (gm) can be loaded using the function *require()*:
 
 ```lua
-local gm = require("eclua.gm") 
+local gm = require("ecluart.gm") 
 ```
 
 ## License
