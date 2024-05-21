@@ -11,7 +11,7 @@ local SingleLayout = require("ecluart.layouts.singlelayout")
 local TopLayout = require("ecluart.layouts.toplayout")
 
 -- Defines a geometry management module.
-local gm = {}
+local gm = {} -- version 2.0
 
 -- Defines specific constants.
 gm.RESIZE = { X = 1, Y = 2, Both = 3, None = 4 }
