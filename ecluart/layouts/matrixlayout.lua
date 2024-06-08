@@ -28,7 +28,7 @@ function MatrixLayout:add(widget)
   self.nextx = self.nextx + newWidget.width + self.gap
   self.column = self.column + 1
 
-  if self.nextx >= self.width then
+  if (self.nextx-self.gap) >= self.endx then
     self.nextx = self.startx
     self.nexty = self.nexty + newWidget.height + self.gap
     self.column = 1
