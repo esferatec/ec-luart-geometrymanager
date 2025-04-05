@@ -5,7 +5,7 @@ The project is a geometry management module written in Lua and LauRT. It defines
 **Please note:**
 These virtual layouts are not physical widgets. They do not take up any space on the parent widget. Basically, they help to place other widgets (buttons, labels, etc.) and rearrange them when the parent widget is resized.
 
-[![LuaRT 1.9.0](https://badgen.net/badge/LuaRT/1.9.0/blue)](https://github.com/samyeyo/LuaRT)
+[![LuaRT 1.9.5](https://badgen.net/badge/LuaRT/1.9.5/blue)](https://github.com/samyeyo/LuaRT)
 
 ## Features
 
