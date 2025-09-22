@@ -16,16 +16,16 @@ The project provides the following virtual layouts:
 | Name | Description | Module |
 | --- | --- | --- |
 | AbsoluteLayout | Places child widgets at the given absolute position. | absolutelayout.lua
-| BottomLayout | Arranges child widgets into a single row on the bottom border. | bottomlayout.lua
-| ColumnLayout | Arranges child widgets into a single column. | columnlayout.lua
-| LeftLayout | Arranges child widgets into a single column on the left border. | leftlayout.lua
+| [BottomLayout](docs/bottomlayout/README.md) | Arranges child widgets into a single row on the bottom border. | bottomlayout.lua
+| [ColumnLayout](docs/columnlayout/README.md) | Arranges child widgets into a single column. | columnlayout.lua
+| [LeftLayout](docs/leftlayout/README.md) | Arranges child widgets into a single column on the left border. | leftlayout.lua
 | MatrixLayout | Arranges child widgets into a given matix. | matrixlayout.lua
 | PackLayout | Arranges child widgets into a single resizeable column. | packlayout.lua
 | RelativeLayout | Places child widgets at the given relative position. | relativelayout.lua
-| RightLayout | Arranges child widgets into a single column on the right border. | rightlayout.lua
-| RowLayout | Arranges child widgets into a single row. | rowlayout.lua
-| SingelLayout | Places a single child widget at the given position. | singelayout.lua
-| TopLayout | Arranges child widgets into a single row on the top border. | toplayout.lua
+| [RightLayout](docs/rightlayout/README.md) | Arranges child widgets into a single column on the right border. | rightlayout.lua
+| [RowLayout](docs/rowlayout/README.md) | Arranges child widgets into a single row. | rowlayout.lua
+| [SingelLayout](docs/singlelayout/README.md) | Places a single child widget at the given position. | singelayout.lua
+| [TopLayout](docs/toplayout/README.md) | Arranges child widgets into a single row on the top border. | toplayout.lua
 
 More detailed descriptions and examples for each of these layouts can be found in the "docs" folder.
 
