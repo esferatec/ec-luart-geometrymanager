@@ -1,6 +1,6 @@
 local bl = require("ecluart.layouts.baselayout")
 
--- Places a child widget at the given absolute position. 
+-- Places a child widget at the given absolute position.
 -- local absolutelayout = {}
 
 -- Defines the absolute layout object.

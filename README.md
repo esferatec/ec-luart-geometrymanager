@@ -15,7 +15,7 @@ The project provides the following virtual layouts:
 
 | Name | Description | Module |
 | --- | --- | --- |
-| AbsoluteLayout | Places child widgets at the given absolute position. | absolutelayout.lua
+| [AbsoluteLayout](docs/absolutelayout/README.md) | Places child widgets at the given absolute position. | absolutelayout.lua
 | [BottomLayout](docs/bottomlayout/README.md) | Arranges child widgets into a single row on the bottom border. | bottomlayout.lua
 | [ColumnLayout](docs/columnlayout/README.md) | Arranges child widgets into a single column. | columnlayout.lua
 | [LeftLayout](docs/leftlayout/README.md) | Arranges child widgets into a single column on the left border. | leftlayout.lua
